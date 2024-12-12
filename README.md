@@ -1,4 +1,3 @@
-
 # CRUD Dashboard User Table Date
 
 Un sito web sviluppato utilizzando PHP, Bootstrap, JavaScript e HTML. Questo progetto offre un'interfaccia user-friendly che permette agli utenti di gestire dati utente tramite operazioni CRUD (Create, Read, Update, Delete). Utilizzando phpMyAdmin per la gestione del database, il sito assicura un'archiviazione sicura e organizzata dei dati.
@@ -14,7 +13,20 @@ Questo progetto di sito web include funzionalità come la visualizzazione di dat
 - **JavaScript**
 - **HTML**
 - **phpMyAdmin** (per la gestione del database)
+- **cPanel** (per la gestione del server durante lo stage)
 - **XAMPP** (per la gestione del server in locale)
+
+## Implementazioni del Login
+
+In questo progetto, sono state create due diverse implementazioni del sistema di login:
+
+1. **Implementazione con cPanel**:
+   - Durante il mio stage, ho sviluppato un sistema di login nella directory `login` utilizzando cPanel. Questo sistema di login gestisce l'autenticazione degli utenti e la connessione al database tramite le credenziali fornite dall'ambiente cPanel.
+
+2. **Implementazione con XAMPP**:
+   - Successivamente, ho sviluppato un secondo sistema di login nella directory `login2` utilizzando XAMPP in un ambiente di sviluppo locale. Questo sistema di login gestisce l'autenticazione degli utenti e la connessione al database configurato localmente.
+
+Ogni implementazione include i file PHP necessari per la gestione delle connessioni al database, l'autenticazione degli utenti e altre funzionalità correlate.
 
 ## Installazione
 
@@ -45,20 +57,5 @@ Questo progetto di sito web include funzionalità come la visualizzazione di dat
 
 ## Database Information
 
-Il database di questo progetto è stato gestito utilizzando phpMyAdmin. Durante lo stage, mi è stato fornito un account cPanel che includeva l'accesso al database. Si prega di notare che le credenziali del database e gli account utente sono specifici per il mio account cPanel. Chiunque copi questo progetto dovrà aggiornare le credenziali del database nei file di configurazione per adattarle al proprio setup cPanel o database.
+Il database di questo progetto è stato gestito utilizzando phpMyAdmin. Durante il mio stage, mi è stato fornito un account cPanel che includeva l'accesso al database. Si prega di notare che le credenziali del database e gli account utente sono specifici per il mio account cPanel. Chiunque copi questo progetto dovrà aggiornare le credenziali del database nei file di configurazione per adattarle al proprio setup cPanel o database.
 
-## Anteprima del Sito
-
-Puoi vedere l'anteprima del sito cliccando su [Anteprima del Sito](preview.pdf).
-
-## Contributi
-
-Siamo aperti ai contributi! Ecco come puoi contribuire:
-1. Fai un fork del repository.
-2. Crea un nuovo branch (es. `feature/nome-funzionalità`).
-3. Fai le modifiche necessarie e committale.
-4. Apri una pull request.
-
-## Licenza
-
-Questo progetto è sotto licenza MIT. Vedi il file [LICENSE](LICENSE) per i dettagli.
