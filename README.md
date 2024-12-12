@@ -14,6 +14,7 @@ Questo progetto di sito web include funzionalità come la visualizzazione di dat
 - **JavaScript**
 - **HTML**
 - **phpMyAdmin** (per la gestione del database)
+- **XAMPP** (per la gestione del server in locale)
 
 ## Installazione
 
